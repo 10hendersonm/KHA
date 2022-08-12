@@ -1,0 +1,24 @@
+{
+  "name": "Khaelian-HunterAspects",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "install.js",
+  "scripts": {
+    "bundle": "pkg ."
+  },
+  "keywords": [],
+  "pkg": {
+    "assets": "src/**/*",
+    "targets": ["node16-win-x64"],
+    "outputPath": "dist"
+  },
+  "author": "Khaelian",
+  "license": "ISC",
+  "devDependencies": {
+    "pkg": "^5.8.0"
+  },
+  "dependencies": {
+    "findit": "^2.0.0",
+    "fs-extra": "^10.1.0"
+  }
+}
